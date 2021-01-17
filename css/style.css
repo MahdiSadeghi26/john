@@ -1,33 +1,13 @@
 /* Hello */
 /* font face */
 @font-face {
-  /* bold section */
-  font-family: "vazir-bold";
-  font-weight: bolder;
-  font-style: normal;
-  src: url("../font/Vazir-Bold-FD.woff") format("woff");
-  src: url("../font/Vazir-Bold-FD.ttf") format("truetype");
-  src: url("../font/Vazir-Light-FD.eot") format("eot");
-  /* light section */
-  font-family: "vazir-light";
-  font-weight: normal;
-  font-weight: 400;
-  src: url("../font/Vazir-Light-FD.woff") format("woff");
-  src: url("../font/Vazir-Light-FD.ttf") format("truetype");
-  src: url("../font/Vazir-Light-FD.eot") format("eot");
-  /* Medium Section */
-  font-family: vazir-medium;
-  font-weight:600 ;
-  src: url("../font/Vazir-Medium-FD.woff") format("woff");
-  src: url("../font/Vazir-Medium-FD.ttf") format("truetype");
-  src: url("../font/Vazir-Medium-FD.eot") format("eot");
-  /* Regular section */
-  font-family: vazir-regular;
-  src: url("../font/Vazir-Regular-FD.woff") format("woff");
-  src: url("../font/Vazir-Regular-FD.ttf") format("truetype");
-  src: url("../font/Vazir-Thin-FD.eot") format("eot");
+  /* AiO Vazir font */
+  font-family: vazir-vr;
+  src: url("../font/Vazir-Variable.woff") format("woff");
+  src: url("../font/Vazir-Variable.ttf") format("truetype");
+  src: url("../font/Vazir-Variable.eot") format("eot");
+  src: url("../font/Vazir-Variable.woff2") format("woff2");
 }
-
 * {
   padding: 0;
   margin: 0;
@@ -35,12 +15,14 @@
   direction: rtl;
 }
 .NF {
-  font-family: vazir;
+  font-family: vazir-vr;
+  font-size: 25px;
 }
 .NI {
   font-family: "vazir-medium";
   font-weight: 500;
-  font-size: 18px;
+  font-size: 21px;
+  margin-right: 25px;
   
 }
 .nbg {
@@ -50,6 +32,13 @@
     rgba(255, 211, 165, 1) 90%
   );
 }
+h4{
+  text-align: right;
+  font-family: vazir-vr;
+  font-weight: bold;
+  font-size: 25px;
+}
 .my-5{
   margin-top: 4.9rem !important;
-}
+  
+  }
