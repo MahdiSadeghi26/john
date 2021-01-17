@@ -31,8 +31,9 @@
     rgba(255, 211, 165, 1) 90%
   );
 }
-/* h4 setting */
-h4 {
+/* h4 h5 setting */
+h4,
+h5 {
   text-align: right;
   font-family: vazir-vr;
   font-weight: bold;
@@ -42,7 +43,10 @@ h4 {
 .mc-5 {
   margin-top: 4.9rem !important;
 }
-
+/* search bar setting */
+.mj-5{
+  margin-top: 5.5rem !important;
+}
 /* card body setting */
 .cb {
   font-family: vazir-vr;
@@ -50,6 +54,13 @@ h4 {
   text-align: right;
 }
 /* Right Align */
-.RA{
+.RA {
   text-align: right;
+}
+/* LA Left Alignment */
+.LA{
+  align-items:flex-end;
+}
+.mxh {
+  max-height: 350px;
 }
