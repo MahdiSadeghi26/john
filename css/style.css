@@ -45,7 +45,7 @@ h5 {
 }
 /* search bar setting */
 .mj-5{
-  margin-top: 5.5rem !important;
+  margin-top: 7.4rem !important;
 }
 /* card body setting */
 .cb {
@@ -60,6 +60,10 @@ h5 {
 /* LA Left Alignment */
 .LA{
   align-items:flex-end;
+}
+/* center alignment */
+.CA{
+  justify-content: center;
 }
 .mxh {
   max-height: 350px;
