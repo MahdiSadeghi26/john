@@ -23,7 +23,6 @@
   font-weight: 500;
   font-size: 21px;
   margin-right: 25px;
-  
 }
 .nbg {
   background-image: radial-gradient(
@@ -32,13 +31,25 @@
     rgba(255, 211, 165, 1) 90%
   );
 }
-h4{
+/* h4 setting */
+h4 {
   text-align: right;
   font-family: vazir-vr;
   font-weight: bold;
   font-size: 25px;
 }
-.my-5{
+/* Website Title */
+.mc-5 {
   margin-top: 4.9rem !important;
-  
-  }
+}
+
+/* card body setting */
+.cb {
+  font-family: vazir-vr;
+  font-size: 19px;
+  text-align: right;
+}
+/* Right Align */
+.RA{
+  text-align: right;
+}
