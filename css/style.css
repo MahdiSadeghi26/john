@@ -14,6 +14,15 @@
   box-sizing: border-box;
   direction: rtl;
 }
+.bd {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(253, 101, 133, 1) 0%,
+    rgba(255, 211, 165, 1) 90%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 .NF {
   font-family: vazir-vr;
   font-size: 25px;
@@ -33,18 +42,22 @@
 }
 /* h4 h5 setting */
 h4,
-h5 {
+h5,.lr {
   text-align: right;
   font-family: vazir-vr;
   font-weight: bold;
   font-size: 25px;
+}
+.lr{
+  direction: rtl;
+  text-align: right;
 }
 /* Website Title */
 .mc-5 {
   margin-top: 4.9rem !important;
 }
 /* search bar setting */
-.mj-5{
+.mj-5 {
   margin-top: 7.4rem !important;
 }
 /* card body setting */
@@ -58,13 +71,19 @@ h5 {
   text-align: right;
 }
 /* LA Left Alignment */
-.LA{
-  align-items:flex-end;
+.LA {
+  align-items: flex-end;
 }
 /* center alignment */
-.CA{
+.CA {
   justify-content: center;
 }
 .mxh {
   max-height: 350px;
+}
+.vz{
+  font-family: vazir-vr;
+}
+.JR{
+  justify-content: right;
 }
